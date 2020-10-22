@@ -1,0 +1,22 @@
+.container-fluid{
+    background-image:linear-gradient(rgb(255, 255, 255), rgb(109, 211, 230));
+    padding: 20px;
+    border-top: 5px solid rgb(255, 115, 0);
+    border-bottom: 5px solid rgb(96, 177, 50);
+}
+.container-fluid h1{
+    color:rgb(0, 0, 0);
+    font-family: cursive;
+}
+.container-fluid .col-md-4{
+    box-sizing: border-box;
+}
+.container-fluid .col-md-4 label{
+    color:rgb(171, 23, 230);
+}
+/* .container-fluid .col-md-4 input[type=text] {
+   border:1px solid rgb(31, 88, 211);
+} */
+.btn-unsuccess{
+    background-color: rgb(205, 240, 173);
+}

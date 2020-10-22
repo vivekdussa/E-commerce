@@ -1,0 +1,29 @@
+.container-fluid{
+    background-color: rgb(179, 243, 234);
+    /* padding:100px; */
+}
+#space{
+    height:50px;
+}
+#login{
+    border: 2px solid rgb(228, 138, 138);
+    background-color: rgba(0, 204, 255, 0.685);
+    box-sizing: border-box;
+    position: relative;
+    /* box-shadow: #ddd8bfa9 5px 5px 10px 15px; */
+    /* margin-top:50px; */
+}
+#login h1{
+    padding:10px;
+    color:red;  
+}
+#login form{
+    padding:20px;
+}
+#login form input{
+    border :1px black solid;
+}
+#login form input[type=submit]{
+    background-color: rgb(151, 216, 20);
+    color:blue;
+}

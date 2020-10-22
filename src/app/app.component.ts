@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'project';
+  categories=['classics','comics','Fantasy','Historical Fiction','Horror','Literacy Fiction','Detective & Mistery','Science Fiction','Short Stories','Suspence & Thriller','Biographies & Autobiographies','Cookbooks','Essays'];
 }

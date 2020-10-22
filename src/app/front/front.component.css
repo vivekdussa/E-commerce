@@ -1,0 +1,243 @@
+#navigation{
+    background-color: rgb(219, 73, 15);
+}
+#navigation select{
+   width: 150px;
+   padding:5px;
+   border-radius: 10px 0 0 10px;
+   background-color: white;
+}
+#navigation button{
+    border-radius: 0px 10px 10px 0px;
+    width:100px;
+    align-content: center;
+    padding: 8px;
+}
+#navigation input[type=text]{
+    height: 45px;
+    border:1px black inset;
+    color:rgb(17, 95, 240);
+}
+#nav{
+    background-color: rgb(219, 73, 15);
+    padding-bottom: 2px;
+    height: 50px;
+}
+#nav li a{
+    color:white;
+    font-size: 1.2em;
+    margin-bottom: 2px;
+   
+}
+#nav li a:hover{
+    border:2px solid rgb(10, 107, 124);
+    background-color: rgb(184, 22, 22);
+    border-radius: 12px;
+}
+
+#input-group{
+  margin:auto;   
+}
+
+.jumbotron{
+    background: radial-gradient(rgb(23, 177, 169) , rgb(255, 255, 6));
+}
+.jumbotron hr{
+    height:2px; 
+    width:30%;
+    background-color:rgb(238, 51, 51);
+  }
+
+
+
+@media only screen and (max-width:600px){
+    #carouselExampleIndicators .carousel-item img{
+        height:280px;
+    }
+    .jumbotron{
+        background-color: rgba(41, 147, 209, 0.534);
+        width:100%;
+    }
+    .jumbotron h1{
+        font-size: 1em;
+        letter-spacing:5px;
+    }
+    .jumbotron hr{
+      height:1px; 
+      max-width:40%;
+      background-color:rgb(14, 68, 246);
+    }
+    .testimonal col{
+      width:100%;
+      display: flex;
+      flex-basis:33.3%;
+      
+    }
+    .row{
+      align-items: center;
+    }
+    .col , .categeries .col-4 , .col-3{
+        flex-basis:100%;
+    }
+}
+
+
+
+
+
+.branding .row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+}
+.branding .row .col{
+    flex-basis: 50%;
+    min-width:300px;
+}
+.branding .row .col img{
+    max-width: 100%;
+    padding: 80px 0;
+}
+.branding .row .col h1{
+    font-size:50px;
+    line-height: 60px;
+    margin:25px 0;
+}
+.branding{
+    background:radial-gradient(white,pink);
+}
+.branding .btn{
+ display: inline-block;
+ padding:8px 30px;
+ background-color: orangered;
+ border-radius:30px;
+ margin:30px 0;
+ color:white;
+ transition: background 0.5s;
+}
+.branding .btn:hover{
+    background-color: rgb(243, 209, 196);
+    color:grey;
+}
+.categeries{
+    margin:70px 0;
+}
+.categeries .col{
+    flex-basis:30%;
+    min-width:200px;
+    margin-bottom:30px;
+}
+.categeries .col img{
+    max-width:100%;
+}
+.products{
+    margin:70px 0;
+    background:radial-gradient(rgb(255, 255, 255),rgb(137, 235, 235))
+}
+.products .row{
+    align-items:center;
+}
+.products h4{
+    font-weight: normal;
+    color:#555;
+    font-size:20px;
+}
+.products h4 p{
+    font-size: 14px;
+}
+.products .col{
+    flex-basis:25%;
+    min-width:250px;
+    transition: 0.5s;
+    align-items: center;
+}
+.products .col img{
+    max-width:100%;
+}
+.title{
+    text-align: center;
+    margin:0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color:#555;
+}
+.title::after{
+    content: '';
+    width:100px;
+    height:5px;
+    background-color: orangered;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left:50%;
+    transform: translateX(-50%);
+}
+.rating .fa{
+    color:orangered;
+    padding:0 4px;
+}
+.products .col:hover{
+  transform:translateY(-15px);
+}
+.specialproduct{
+    background:radial-gradient(white,orange);
+    
+}
+.specialproduct .row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    padding-bottom: 100px;;
+}
+.specialproduct .row .col{
+    flex-basis: 50%;
+    min-width:300px;
+}
+.specialproduct img{
+    padding:50px;
+    max-width: 100%;
+}
+.specialproduct small{
+    color:#555;
+    font-size:1em;
+}
+
+/*  testimonal */
+.testimonal{
+    /* margin:70px 0; */
+    max-width: 100%;
+    background-color:rgb(235, 226, 245);
+    padding:70px 0;
+}
+.testimonal .col{
+    text-align:center;
+    padding:40px 20px;
+    min-width:200px;
+    margin:20px 20px;
+    background-color:white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.testimonal .col img{
+    width:50px;
+    border-radius: 50%;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.testimonal .col:hover{
+   transform:translateY(-15px);
+}
+.testimonal .fa-quote-left{
+    font-size:35px;
+    color:orangered;
+}
+.testimonal p{
+    font-size:14px;
+    margin:12px;
+}
+.testimonal h3{
+    font-size: 25px;
+    font-family: cursive;
+    text-shadow:2px red;
+}
